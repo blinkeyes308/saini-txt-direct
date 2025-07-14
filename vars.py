@@ -3,12 +3,12 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "xxxxxxxxx"))
-API_HASH = environ.get("API_HASH", "xxxxxxxxxxxxxxxxxxxxxxx")
+API_ID = int(environ.get("API_ID", "24375246"))
+API_HASH = environ.get("API_HASH", "be742585b7442d214574babe1bc09532")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 OWNER = int(environ.get("OWNER", "2012865606"))
-CREDIT = environ.get("CREDIT", "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎")
+CREDIT = environ.get("CREDIT", "𝘽𝙊𝙏𝙎")
 
 TOTAL_USER = os.environ.get('TOTAL_USERS', '5680454765').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
